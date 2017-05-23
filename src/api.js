@@ -1,3 +1,5 @@
+import fetch from 'isomorphic-fetch'
+
 const API_URL = 'http://localhost:8080'
 const TESTING_ARRAY = [ 0, 1, 2, 3, 4, 5 ]
 
