@@ -17,7 +17,7 @@ fetch and do some operations on these arrays.
 Write an ES6 class that does the following:
   - [ ] When created, has properties inluding: `{ isFetching: false, array: null }`
   - [ ] Has a method called `fetchArray()` that fetches an array from the server
-    - Import and use the `getArray()` function from [`api.js`](./api.js)
+    - Import and use the `getArray()` function from [`src/api.js`](./src/api.js)
     - Make sure to update `isFetching` accordingly
   - [ ] Has a method called `getStats()` that returns an object with the following information: `max`, `min`, `sum`, `length`
     - [ ] Modify your `getStats()` method to use a single `reduce()` function
@@ -34,7 +34,7 @@ for a deeper dive into this problem.
 ### Testing
 Testing is not covered in this bootcamp, but I highly encourage you to look into
 the various options for testing. There are many great options, and in this exercise
-you get to implement your own. Inside [`api.js`](./api.js) is another function
+you get to implement your own. Inside [`src/api.js`](./src/api.js) is another function
 that you may find helpful (tl;dr it's a deterministic `getArray()`). Use this to
 complete these tasks:
   - [ ] Export your class and import it into a new file called `test.js`
