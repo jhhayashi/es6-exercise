@@ -5,6 +5,8 @@ const ERROR_CODES = [0, 400, 403, 404, 500]
 
 const app = express()
 
+app.use((req, res, next) => {setTimeout(next, 1000)})
+
 if (process.env.CHALLENGE_MODE) {
   app.use((req, res, next) => {
     if (Math.round(Math.max(Math.random() - 0.25, 0))) {
