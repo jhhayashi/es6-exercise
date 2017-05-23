@@ -35,7 +35,7 @@ for a deeper dive into this problem.
 Testing is not covered in this bootcamp, but I highly encourage you to look into
 the various options for testing. There are many great options, and in this exercise
 you get to implement your own. Inside [`api.js`](./api.js) is another function
-that you may find helpful (TLDR it's a deterministic `getArray()`). Use this to
+that you may find helpful (tl;dr it's a deterministic `getArray()`). Use this to
 complete these tasks:
   - [ ] Export your class and import it into a new file called `test.js`
   - [ ] Write your own `assert(value, message)` function that errors with `message` if `value` is not truthy
@@ -44,5 +44,7 @@ complete these tasks:
 ### Challenge
 If you finish early, run the server in challenge mode with `npm run challenge`.
 This will cause the server to randomly return HTTP error codes, and in the rare
-case (5%), never respond at all. Modify your class to gracefully handle these
+case (5%), never respond at all. 
+
+Add a new class that inherits from your existing class that can handle these
 errors (in any way you see fit), and add a timeout to your response.
