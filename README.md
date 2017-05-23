@@ -14,6 +14,11 @@ fetch and do some operations on these arrays.
  - Run the server with `npm start` (`yarn start`)
 
 ### Exercise
+Before you start, I'd recommend setting up [Babel](http://babeljs.io/docs/setup)
+using the `env` preset. You'll also need [`babel-polyfill`](http://babeljs.io/#polyfill)
+in order to use async/await. Don't forget to add `babel-cli`, `babel-preset-env`,
+and `babel-polyfill` to your devDependencies!
+
 Write an ES6 class that does the following:
   - [ ] When created, has properties inluding: `{ isFetching: false, array: null }`
   - [ ] Has a method called `fetchArray()` that fetches an array from the server
